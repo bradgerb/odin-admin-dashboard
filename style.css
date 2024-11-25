@@ -3,6 +3,23 @@ body{
     padding: 0;
 }
 
+ul{
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.larger{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 .container{
     height: 100vh;
     display: grid;
