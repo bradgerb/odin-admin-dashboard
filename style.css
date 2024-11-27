@@ -34,6 +34,10 @@ a{
     padding: 40px;
 }
 
+.sidebar li{
+    padding-top: 10px;
+}
+
 .header{
     background-color: white;
     grid-column: 2 / 3;
