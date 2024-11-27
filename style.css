@@ -107,6 +107,10 @@ input[type=text]{
     background-image: linear-gradient(to right, #f0b429 10px, transparent 10px);
 }
 
+.card .images{
+    justify-self: right;
+}
+
 .title{
     font-size: larger;
     font-weight: bold;
