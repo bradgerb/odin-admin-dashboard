@@ -50,6 +50,15 @@ a{
     box-shadow: 1px 1px 3px grey;
 }
 
+input[type=text]{
+    background-color: #e2e8f0;
+    width: 30%;
+    height: 20px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 20px 50px;
+}
+
 .body{
     background-color: #e2e8f0;
     grid-column: 2 / 3;
