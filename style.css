@@ -41,6 +41,8 @@ a{
 }
 
 .container .header{
+    position: relative;
+    z-index: 1;
     box-shadow: 1px 1px 3px grey;
 }
 
@@ -89,15 +91,7 @@ a{
 }
 
 .cards .card{
-    box-shadow:
-    /* left "inner border" */
-    inset 10px 0 0 0 #f0b429,
-    /* right "inner border" */
-    inset -10px 0 0 0 white,
-    /* top "inner border" */
-    inset 0 10px 0 0 white,
-    /* bottom "inner border" */
-    inset 0 -10px 0 0 white;
+    background-image: linear-gradient(to right, #f0b429 10px, transparent 10px);
 }
 
 .title{
