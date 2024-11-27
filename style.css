@@ -28,19 +28,24 @@ a{
 }
 
 .sidebar{
-    background-color: lightblue;
+    background-color: #1992d4;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    padding: 40px;
 }
 
 .header{
-    background-color: peachpuff;
+    background-color: white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 
+.container .header{
+    box-shadow: 1px 1px 3px grey;
+}
+
 .body{
-    background-color: lightgrey;
+    background-color: #e2e8f0;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
@@ -76,8 +81,32 @@ a{
 
 .card{
     background-color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.cards .card{
+    box-shadow:
+    /* left "inner border" */
+    inset 10px 0 0 0 #f0b429,
+    /* right "inner border" */
+    inset -10px 0 0 0 white,
+    /* top "inner border" */
+    inset 0 10px 0 0 white,
+    /* bottom "inner border" */
+    inset 0 -10px 0 0 white;
+}
+
+.title{
+    font-size: larger;
+    font-weight: bold;
 }
 
 .content{
     color: grey;
+    font-size: medium;
+    font-weight: 500;
 }
