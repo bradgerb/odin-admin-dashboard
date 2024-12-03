@@ -115,7 +115,7 @@ input[type=text]{
     grid-row: 1 / 7;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr repeat(3, 10fr);
+    grid-template-rows: 30px repeat(3, 1fr);
     margin: 60px 20px;
     gap: 20px;
 }
@@ -125,14 +125,19 @@ input[type=text]{
     grid-row: 1 / 4;
     margin: 60px 20px 20px 0;
     display: grid;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 30px 1fr;
+    gap: 20px;
+}
+
+.announcements .content, .trending .content{
+    font-size: x-small;
 }
 
 .trending{
     grid-column: 3 / 4;
     grid-row: 4 / 7;
     display: grid;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 30px 1fr;
     margin: 0 20px 60px 0;
 }
 
