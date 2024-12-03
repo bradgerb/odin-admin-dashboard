@@ -1,6 +1,12 @@
+@font-face {
+    font-family: imported;
+    src: url(./font/Roboto/Roboto-Regular.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
+    font-family: imported Arial, Helvetica, sans-serif;
 }
 
 ul{
