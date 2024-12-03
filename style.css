@@ -48,6 +48,22 @@ a{
     background-color: white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.searchBar{
+    display: flex;
+    margin: 20px 0px 20px 50px;
+}
+
+.userInfo{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+    gap: 15px;
 }
 
 .container .header{
@@ -58,11 +74,10 @@ a{
 
 input[type=text]{
     background-color: #e2e8f0;
-    width: 30%;
-    height: 20px;
+    width: 250%;
+    height: 30px;
     border: 0px;
     border-radius: 20px;
-    margin: 20px 50px;
 }
 
 .body{
@@ -117,7 +132,7 @@ input[type=text]{
     justify-self: right;
 }
 
-.title{
+.title, .userInfo{
     font-size: larger;
     font-weight: bold;
 }
