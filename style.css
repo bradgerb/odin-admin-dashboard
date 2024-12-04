@@ -122,6 +122,14 @@ input[type=text]{
     align-self: center;
 }
 
+.block{
+    width: 100%;
+}
+
+.block::first-line{
+    font-size: small;
+}
+
 .body{
     background-color: #e2e8f0;
     grid-column: 2 / 3;
@@ -137,7 +145,7 @@ input[type=text]{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 30px repeat(3, 1fr);
-    margin: 60px 20px 0px 20px;
+    margin: 30px 20px 0px 20px;
     gap: 20px;
     height: max-content;
 }
@@ -145,7 +153,7 @@ input[type=text]{
 .announcements{
     grid-column: 3 / 4;
     grid-row: 1 / 4;
-    margin: 60px 20px 20px 0;
+    margin: 30px 20px 20px 0;
     display: grid;
     grid-template-rows: 30px 1fr;
     gap: 20px;
@@ -153,7 +161,7 @@ input[type=text]{
 }
 
 .announcements .content, .trending .content{
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 .announcements .card, .trending .card{
@@ -165,7 +173,7 @@ input[type=text]{
     grid-row: 4 / 7;
     display: grid;
     grid-template-rows: 30px 1fr;
-    margin: 0 20px 60px 0;
+    margin: 0 20px 0 0;
     height: max-content;
 }
 
