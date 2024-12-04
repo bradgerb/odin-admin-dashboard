@@ -128,7 +128,7 @@ input[type=text]{
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(2, 1.5fr) 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .cards{
@@ -137,7 +137,7 @@ input[type=text]{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 30px repeat(3, 1fr);
-    margin: 60px 20px;
+    margin: 60px 20px 0px 20px;
     gap: 20px;
     height: max-content;
 }
@@ -156,7 +156,7 @@ input[type=text]{
     font-size: xx-small;
 }
 
-.announcements .card{
+.announcements .card, .trending .card{
     font-size: small;
 }
 
@@ -167,6 +167,12 @@ input[type=text]{
     grid-template-rows: 30px 1fr;
     margin: 0 20px 60px 0;
     height: max-content;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .card{
@@ -184,6 +190,7 @@ input[type=text]{
 
 .card .images{
     justify-self: right;
+    margin-top: 10px;
 }
 
 .title, .header{
